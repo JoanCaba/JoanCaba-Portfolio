@@ -1,10 +1,13 @@
 header {
   display: flex;
+  position: sticky;
+  top: 0;
+  width: 100%;
   align-items: center;
   justify-content: space-evenly;
-  position: relative;
   height: 8svh;
-  background: var(--primary-background-color);
+  background: var(--primary-background-color-alpha);
+  backdrop-filter: blur(3px);
   color: var(--primary-text-color);
 }
 header::after {
