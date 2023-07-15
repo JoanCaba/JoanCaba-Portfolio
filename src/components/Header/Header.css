@@ -15,3 +15,8 @@ header::after {
   height: 1px;
   background: var(--primary-text-color);
 }
+
+.media-buttons {
+  display: flex;
+  gap: 1rem;
+}

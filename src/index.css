@@ -26,6 +26,12 @@
   --primary-background-color: #f5f5f5;
   --secondary-text-color: #333333;
   --secondary-background-color: #fafafa;
+
+  --linkedin-color: #008cc9;
+  --github-color: #606a86;
+  --button-text-color: #e9fafc;
+
+  --primary-box-shadow-inset: rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 * {
   margin: 0;

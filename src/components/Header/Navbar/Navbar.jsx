@@ -1,24 +1,15 @@
 import { NavLink } from 'react-router-dom'
 import './Navbar.css'
 import { useTranslation } from "react-i18next"
+import availableRoutes from '../../../data/availableRoutes';
 
 const Navbar = () => {
   const { t } = useTranslation();
-  // TODO: move this to a json?
-  const links = [
-    {
-      to: "/",
-      name: 'home'
-    },
-    {
-      to: "/about",
-      name: 'about'
-    }
-  ]
+
   return (
     <nav>
       <ul className='navbar-list'>
-        {links.map((link) => <li key={link.to}><NavLink to={link.to}>{t(link.name)}</NavLink></li>)}
+        {availableRoutes.map((route) => <li key={route.path}><NavLink to={route.path}>{t(route.routeName)}</NavLink></li>)}
       </ul>
     </nav>
   )

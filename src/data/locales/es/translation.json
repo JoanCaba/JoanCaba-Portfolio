@@ -1,5 +1,7 @@
 {
   "home": "Inicio",
   "about": "Sobre mi",
-  "madeWith": "Hecho con Vite/React/JavaScript por"
+  "projects": "Proyectos",
+  "madeWith": "Hecho con Vite/React/JavaScript por",
+  "logoAlt": "Logo de"
 }
